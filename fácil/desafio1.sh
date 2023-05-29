@@ -15,5 +15,5 @@ cd Desafio/
 touch {1..10}.txt
 touch {1..3}.exc
 
-# Desafio: Crie um loop para excluir todos os arquivos que terminam com .exc
+# Desafio: Crie um loop para excluir todos os arquivos que terminam com .exc ou utilize algum comando que exclua todos arquivos .exc de uma vez
 
