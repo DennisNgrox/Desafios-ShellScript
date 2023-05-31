@@ -17,37 +17,16 @@ mkdir Desafio
 #Entrar na pasta Desafio
 cd Desafio/ 
 
-index=(
-Miguel
-Arthur
-Gael
-Théo
-Heitor
-Ravi
-Davi
-Bernardo
-Noah
-Gabriel
-Helena
-Alice
-Laura
-Maria Alice
-Sophia
-Manuela
-Maitê
-Liz
-Cecília
-Isabella
-)
+# Criar arquivo com dados criptografados
 
-for i in ; 
+for i in `seq 100`; 
 do 
-    random=$(head -c40 /dev/urandom | base64)
-    echo $random-$i | base64 >> desafio-2.txt
+    echo $((RANDOM%500)) | base64 >> arquivo_codificado.txt
 done
 
 
 
-# Desafio: Crie um loop para excluir todos os arquivos que terminam com .exc
+# Desafio: Crie um loop para decodificar todo o conteúdo do arquivo e execute o script de solução passando como primeiro argumento 125° número
 
-# EM CONSTRUÇÃO!!!!!
+# Exemplo: ./script-valida.sh 125
+
