@@ -13,8 +13,11 @@ Olá, esse repositório foi criado com o fim de auxiliar todos que querem aprend
 [Scripts]
 
     - Script em Shell para criar o laboratório
+    
     - Desafios para serem resolvidos
+    
     - Script de validação do exercicio
+    
     - Solucção dos Desafios
     
     
