@@ -17,7 +17,7 @@
 ## Para tornar esse script executavel, execute o comando: chmod +x valida-desafio.sh
 ## Forma de executar: ./valida-desafio.sh $PWD  ---- ou ---- ./valida-desafio.sh </caminho/desafio> --- sempre adicionar o caminho aonde se encontra os desafios.
 
-caminho=$1 
+caminho=$1
 
 select opcao in desafio-1 desafio-2 desafio-3
 do 
@@ -34,5 +34,14 @@ case ${REPLY} in
 
 ;;
 
+2)
+    if [[ $1 -eq $(cat arquivo_codificado.txt | base64 --encode | sed -n '125p') ]];
+    then
+        echo "Exercicio Concluído, 125° é $1"
+        break
+    else
+        echo "Incorreto, tente novamente!"
+        break
+    fi
 esac
 done
