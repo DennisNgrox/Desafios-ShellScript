@@ -20,7 +20,9 @@ Este repositório contém
     
 [Como construir o LABORATÓRIO dos exercicios]
 
-    - Cada desafio tem o script para criar o laboratório, por exemplo, desafio1, crie o arquivo com o conteúdo do arquivo desafio1.sh (ou faça o download), rode o comando chmod +x desafio1.sh e execute ./desafio1.sh
+    - Cada desafio tem o script para criar o laboratório, por exemplo, desafio1:
+        - crie o arquivo com o conteúdo do arquivo desafio1.sh (ou faça o download), rode o comando chmod +x desafio1.sh e execute ./desafio1.sh
+        
     - Cada desafio terá sua própria pasta, sendo assim, quando executar o script do desafio2, ele criara uma nova pasta para que os arquivos fiquem salvos e seja possível separar dos demais desafios
     
     
