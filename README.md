@@ -4,10 +4,11 @@
 
 ![text-x-script-icon](https://binbash.club/bin_bash.gif)
 
-</div>
+</div >
 
+<div align=center>
 Olá, esse repositório foi criado com o fim de auxiliar todos que querem aprender Shell Script
-
+</div>
 <h1></h1>
 
 [Scripts]
