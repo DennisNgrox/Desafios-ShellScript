@@ -32,9 +32,13 @@ Olá, esse repositório foi criado com o fim de auxiliar todos que querem aprend
     - Necessário em cada pasta adicionar o Script "valida-desafio.sh" e executa-lo afim de validar se a sua resposta ou o resultado do seu comando está correto.
     
     
-[Observation]
+[Observações]
   
-    - Em construção
+    - Necessário ler cada script antes de executá-lo
+    
+    - Sugestões são bem-vindas e desafios também
+    
+    - deixarei meu e-mail de contato para eventuais erros ou atualizações
 
 
 <div align="center">
