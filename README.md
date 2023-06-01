@@ -12,7 +12,7 @@ Este repositório contém
 
 [Scripts]
 
-    - Script em Shell para criar o lab
+    - Script em Shell para criar o laboratório
     - Desafios para serem resolvidos
     - Script de validação do exercicio
     - Solucção dos Desafios
