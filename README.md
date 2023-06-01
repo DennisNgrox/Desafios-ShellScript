@@ -23,7 +23,9 @@ Olá, esse repositório foi criado com o fim de auxiliar todos que querem aprend
     - Cada desafio tem o script para criar o laboratório, por exemplo, desafio1:
         - crie o arquivo com o conteúdo do arquivo desafio1.sh (ou faça o download), rode o comando chmod +x desafio1.sh e execute ./desafio1.sh
         
-    - Cada desafio terá sua própria pasta, sendo assim, quando executar o script do desafio2, ele criara uma nova pasta para que os arquivos fiquem salvos e seja possível separar dos demais desafios
+    - Cada desafio terá sua própria pasta, sendo assim, quando executar o script do desafio2, ele criara uma nova pasta para que os arquivos fiquem salvos e seja possível separar dos demais desafios7
+    
+    - Necessário em cada pasta adicionar o Script "valida-desafio.sh" e executa-lo afim de validar se a sua resposta ou o resultado do seu comando está correto.
     
     
 [Observation]
