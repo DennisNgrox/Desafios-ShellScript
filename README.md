@@ -6,9 +6,9 @@
 
 </div>
 
-Olá, esse repositório foi criado com o fim de auxiliar todos que querem aprender shell script
+Olá, esse repositório foi criado com o fim de auxiliar todos que querem aprender Shell Script
 
-Este repositório contém
+<h1></h1>
 
 [Scripts]
 
