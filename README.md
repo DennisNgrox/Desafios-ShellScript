@@ -17,6 +17,11 @@ Este repositório contém
     - Script de validação do exercicio
     - Solucção dos Desafios
     
+    
+[Como construir o LABORATÓRIO dos exercicios]
+
+    - 
+    
 [Observation]
   
     - Em construção
