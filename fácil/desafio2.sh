@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #  ____  _____ ____    _    _____ ___ ___            ____
 # |  _ \| ____/ ___|  / \  |  ___|_ _/ _ \          |___ \
 # | | | |  _| \___ \ / _ \ | |_   | | | | |  _____    __) |
@@ -12,10 +14,10 @@
 ## Rode os seguintes comandos para criar o laboratório e logo após resolva-o
 
 #Criar pasta Desafio
-mkdir Desafio
+mkdir Desafio/Desafio2
 
 #Entrar na pasta Desafio
-cd Desafio/ 
+cd Desafio/Desafio2
 
 # Criar arquivo com dados criptografados
 
