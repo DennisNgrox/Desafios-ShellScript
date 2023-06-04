@@ -39,6 +39,7 @@ Olá, esse repositório foi criado com o fim de auxiliar todos que querem aprend
     - Sugestões são bem-vindas e desafios também
     
     - deixarei meu e-mail de contato para eventuais erros ou atualizações
+    - dennisdasilva04@gmail.com
 
 
 <div align="center">
