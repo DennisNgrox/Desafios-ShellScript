@@ -43,5 +43,26 @@ case ${REPLY} in
         echo "Incorreto, tente novamente!"
         break
     fi
+
+;;
+
+3)
+    for i in sub*.txt
+    do
+        aluno=$(grep "ALUNO=DESAFIO" $i)
+        aula=$(grep "AULA=3" $i)
+        if [[ $(echo $aluno) -eq "ALUNO=DESAFIO" && $(echo $aula) -eq "AULA=3" ]];
+        then
+            alterado=$(echo "$i alterado!")
+            if [[ $(echo $alterado | grep -Eo "$i") == 'sub9.txt' ]];
+            then
+                echo "Exercicio concluído!"
+                break
+            fi
+        else
+            echo "$i não alterado totalmente!"
+            break
+        fi
+    done
 esac
 done
