@@ -49,9 +49,9 @@ case ${REPLY} in
 3)
     for i in sub*.txt
     do
-        aluno=$(grep "ALUNO=DESAFIO" $i)
-        aula=$(grep "AULA=3" $i)
-        if [[ $(echo $aluno) -eq "ALUNO=DESAFIO" && $(echo $aula) -eq "AULA=3" ]];
+        aluno=$(grep -Eo "ALUNO=DESAFIO$" $i)
+        aula=$(grep -Eo "AULA=3$" $i)
+        if [[ $(echo $aluno) == "ALUNO=DESAFIO" && $(echo $aula) == "AULA=3" ]];
         then
             alterado=$(echo "$i alterado!")
             if [[ $(echo $alterado | grep -Eo "$i") == 'sub9.txt' ]];
