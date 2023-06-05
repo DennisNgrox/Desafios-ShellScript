@@ -19,7 +19,7 @@
 
 caminho=$1
 
-select opcao in desafio-1 desafio-2 desafio-3
+select opcao in desafio-1 desafio-2 desafio-3 desafio-4
 do 
 case ${REPLY} in 
 1)
@@ -64,5 +64,11 @@ case ${REPLY} in
             break
         fi
     done
+    
+ ;;
+ 
+ 4) 
+    echo "Em construção"
+    
 esac
 done
