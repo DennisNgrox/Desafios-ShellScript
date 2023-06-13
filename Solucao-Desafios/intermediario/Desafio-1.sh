@@ -31,7 +31,7 @@ wordlist=$2
 for e in $(cat $wordlist);
 do
     command=$(unzip -tq -P "$e" ${archive})
-    result=$(echo $command | grep -Eo 'incorrect')
+    result=$(echo ${command} | grep -Eo 'incorrect')
 
     if [[ $(echo ${result}) == 'incorrect' ]]
     then
@@ -41,7 +41,7 @@ do
         echo "Senha encontrada: $e"
         unzip -P "${e}" ${archive} > /dev/null 2>&1
         echo ' '
-        cat crip.txt    
+        cat ${archive}  
         break
     fi
 done
