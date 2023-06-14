@@ -46,6 +46,9 @@ Olá, esse repositório foi criado com o fim de auxiliar todos que querem aprend
   
   <h1></h1>
 
+    Será atualizado a forma de lidar com os desafios, criarei uma ferramenta para fazer todos desafios e validações
+    
+    Em construção!
 ![518713](https://images.pling.com/img/00/00/55/86/05/1442245/24647f211b4887364973b9958bed65676de92a8d7b2cf31af3e3297a9d74b8ab037e.gif)
     
 </div>
