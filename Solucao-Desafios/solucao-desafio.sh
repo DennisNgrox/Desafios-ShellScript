@@ -30,10 +30,12 @@ case ${REPLY} in
         if [[ $(find $caminho -name "*.exc" | wc -l) -gt 0 || $(find $caminho -name "*.txt" | wc -l) -lt 10 ]];
         then
             echo "Exercicio não conluído, existem $(find $caminho -name "*.exc" | wc -l) arquivos .exc"
-            break
+            break;
+            exit 1
         else
             echo "Exercicio Concluído, parabéns!"
-            break
+            break;
+            exit 1
         fi
 
     ;;
@@ -42,10 +44,12 @@ case ${REPLY} in
         if [[ $1 -eq $(cat arquivo_codificado.txt | base64 --encode | sed -n '125p') ]];
         then
             echo "Exercicio Concluído, 125° é $1"
-            break
+            break;
+            exit 1
         else
             echo "Incorreto, tente novamente!"
-            break
+            break;
+            exit 1
         fi
 
     ;;
@@ -61,11 +65,13 @@ case ${REPLY} in
                 if [[ $(echo $alterado | grep -Eo "$i") == 'sub9.txt' ]];
                 then
                     echo "Exercicio concluído!"
-                    break
+                    break;
+                    exit 1
                 fi
             else
                 echo "$i não alterado totalmente!"
-                break
+                break;
+                exit 1
             fi
         done
     esac
@@ -83,14 +89,39 @@ case ${REPLY} in
         then
             cat crip.txt && echo 'Exercicio concluído' || echo 'Exercicio não resolvido'
             break;
+            exit 1
         else
             echo "Exercicio não resolvido"
             break;
+            exit 1
         fi
     ;;
 
     2)
-        echo 'teste'
+            read -p "Informe o resultado em minutos: " result
+
+            if [[ $(ls -lh | grep "Desafio-2.sh") ]];
+            then
+                echo '1' > /dev/null 2>&1
+            else
+                wget https://raw.githubusercontent.com/DennisNgrox/Desafios-ShellScript/main/Solucao-Desafios/intermediario/Desafio-2.sh > /dev/null 2>&1
+            fi
+
+            apt install coreutils -y > /dev/null 2>&1
+            chmod +x Desafio-2.sh > /dev/null 2>&1
+            sed -i s'/echo/# echo/' Desafio-2.sh
+            echo 'echo $minutos' >> Desafio-2.sh
+            resultado=$(./Desafio-2.sh archive)
+
+            if [[ $result == $resultado ]];
+            then
+                echo "Está correto, parabéns, desafio concluído"
+                exit 1
+            else
+                echo "Está incorreto, tente novamente!"
+                exit 1
+            fi
+
     ;;
 
     3)
