@@ -19,7 +19,7 @@ arquivo=$1
 data_atual=$(date +%s)
 
 # Obtém o carimbo de data e hora do arquivo
-data_arquivo=$(stat -c %Y ${archive})
+data_arquivo=$(stat -c %Y ${arquivo})
 
 # Calcular a diferença em segundos
 diferenca=$(($data_atual - $data_arquivo))
