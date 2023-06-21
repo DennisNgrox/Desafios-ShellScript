@@ -28,4 +28,5 @@ horas=$(($diferenca / 3600))
 minutos=$(( ($diferenca % 3600) / 60 ))
 
 # Exibe o tempo decorrido
-echo "Tempo decorrido: $horas horas e $minutos minutos"
+# echo "Tempo decorrido: $horas horas e $minutos minutos"
+echo $minutos
