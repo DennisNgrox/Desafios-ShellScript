@@ -17,4 +17,4 @@ mkdir Desafio/Desafio4
 #Entrar na pasta Desafio
 cd Desafio/Desafio4
 
-echo "Em construção"
+echo "Em construção..."
